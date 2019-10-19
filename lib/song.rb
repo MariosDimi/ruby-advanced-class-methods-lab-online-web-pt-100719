@@ -47,3 +47,6 @@ class Song
   end
 
 end
+
+song_1 = song.find_or_create_by_name("Hero")
+song_2 = song.find_or_create_by_name("Californication")
